@@ -31,4 +31,3 @@ Thumbs.db
 
 # Logs
 *.log
-'@ | Set-Content -Encoding utf8 .gitignore
