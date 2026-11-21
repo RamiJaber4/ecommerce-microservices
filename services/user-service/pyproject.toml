@@ -2,4 +2,12 @@
 name = "user-service"
 version = "0.1.0"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "argon2-cffi>=25.1.0",
+    "fastapi>=0.165.0",
+    "psycopg[binary]>=3.3.9",
+    "pydantic[email]>=2.14.4",
+    "sqlalchemy>=2.1.9",
+    "uuid6>=2025.0.1",
+    "uvicorn[standard]>=0.54.0",
+]
